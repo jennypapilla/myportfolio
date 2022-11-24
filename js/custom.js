@@ -212,6 +212,6 @@ $('.work-filter li').on('click', function(){
 });
 
 function click() {
-var audio = new Audio("files/click.mp3");
+var audio = new Audio("click.mp3");
 audio.play()
 }
