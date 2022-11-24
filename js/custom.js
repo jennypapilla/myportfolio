@@ -210,3 +210,8 @@ $('.work-filter li').on('click', function(){
 	});
 	return false;
 });
+
+function click() {
+var audio = new Audio("files/click.mp3");
+audio.play()
+}
