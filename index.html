@@ -168,7 +168,7 @@
                </div>
                <div class="row">
                   <div class="col-md-4">
-                     <div class="core resize">
+                     <div class="core">
                         <div class="text">
                            <ul>
 						   <li>Management of an I.T. Support team.</li>
@@ -182,7 +182,7 @@
                      </div>
                   </div>
                   <div class="col-md-4">
-                     <div class="core resize">
+                     <div class="core">
                         <div class="text">
                            <ul>
 						   <li>Theoretical knowledge of business management and exposure to real-time store trading activities.</li>
@@ -194,7 +194,7 @@
                      </div>
                   </div>
                    <div class="col-md-4">
-                     <div class="core resize">
+                     <div class="core">
                         <div class="text">
                            <ul>
 						   <li>Proficient in Microsoft Office.</li>
@@ -784,22 +784,5 @@
 		}
 		);
 	</script>	
-<script>
-autoSizeText = ->
-    elements = $('.resize')
-    console.log elements
-    return if elements.length < 0
-
-    for el in elements
-      do (el) ->
-        
-        resizeText = ->
-          elNewFontSize = (parseInt($(el).css('font-size').slice(0, -2)) - 1) + 'px'
-          $(el).css('font-size', elNewFontSize)
-
-        resizeText() while el.scrollHeight > el.offsetHeight
-            
-$(document).ready -> autoSizeText()	  
-</script>
    </body>
 </html>
