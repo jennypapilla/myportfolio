@@ -1763,7 +1763,7 @@ header .navbar-brand .social-icon a {
 #qualification .core {
     text-align: left;
     width: 100%;
-    height: 480px;
+    height: auto;
     border-radius: 23px;
     float: left;
     margin-bottom: 40px;
