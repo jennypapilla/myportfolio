@@ -1770,6 +1770,7 @@ header .navbar-brand .social-icon a {
     position: relative;
     padding: 30px 0;
     border: 1px solid #ffffff45;
+    overflow-x: scroll;
 }
 
 #certification .core {
