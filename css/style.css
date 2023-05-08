@@ -1770,7 +1770,6 @@ header .navbar-brand .social-icon a {
     position: relative;
     padding: 30px 0;
     border: 1px solid #ffffff45;
-    overflow-x: scroll;
 }
 
 #certification .core {
@@ -2528,10 +2527,6 @@ input[type="text"] {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
-}
-
-.core ul li {
-	font-size: 1.4vw;
 }
 .education {
 	margin: 0;
